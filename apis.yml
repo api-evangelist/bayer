@@ -8,11 +8,87 @@ tags:
   - Agriculture
   - Healthcare
   - Chemicals
-description: 'A German multinational pharmaceutical and life sciences company operating in healthcare and agriculture. Produces prescription drugs, consumer health products, and crop science solutions including seeds and crop protection.'
+  - Crop Science
+description: >-
+  Bayer is a German multinational pharmaceutical and life sciences company
+  operating across pharmaceuticals, consumer health, and crop science. Bayer
+  does not publish a single corporate-level public developer portal;
+  integration is delivered through enterprise partner programs, the Bayer
+  Crop Science Climate FieldView ecosystem (partner-gated APIs and
+  certified-partner integrations), pharmacovigilance and clinical-trial data
+  exchange, and EDI / x12 channels with distributors and pharmacy benefit
+  managers.
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
     url: https://www.bayer.com/
+  - type: Pharmaceuticals
+    url: https://www.bayer.com/en/pharma/pharmaceuticals
+  - type: ConsumerHealth
+    url: https://www.bayer.com/en/consumer-health/consumer-health
+  - type: CropScience
+    url: https://www.cropscience.bayer.com/
+  - type: ClimateFieldView
+    url: https://climate.com/
+  - type: ClinicalTrials
+    url: https://www.clinicaltrials.bayer.com/
+  - type: DataSharing
+    url: https://vivli.org/members/bayer/
+  - type: Suppliers
+    url: https://www.bayer.com/en/suppliers
+  - type: PrivacyPolicy
+    url: https://www.bayer.com/en/data-protection
+  - type: TermsOfService
+    url: https://www.bayer.com/en/terms-and-conditions
+  - type: Contact
+    url: https://www.bayer.com/en/contact
+  - type: Features
+    data:
+      - name: Climate FieldView Partner Ecosystem
+        description: Bayer Crop Science's Climate FieldView platform supports certified third-party integrations for field data sharing, planting prescriptions, and equipment-monitor data via a partner program.
+      - name: Clinical Trial Information
+        description: Bayer publishes registered clinical trial information and posts results to public registries including clinicaltrials.gov and the EU CTR.
+      - name: Patient-Level Data Sharing
+        description: Anonymized patient-level clinical trial data is made available to qualified researchers via the Vivli platform.
+      - name: Medical Information Portal
+        description: Healthcare professionals can request product and safety information through country-specific medical information sites.
+      - name: Distributor and Wholesaler EDI
+        description: Drug ordering, returns, chargebacks, and shipment notifications are exchanged with distributors via standardized x12 EDI transactions.
+      - name: Pharmacovigilance Submissions
+        description: Adverse-event reports are received via regulatory channels (E2B, FAERS, EudraVigilance) rather than a public API.
+  - type: UseCases
+    data:
+      - name: Precision Agriculture Integration
+        description: Equipment OEMs, agronomy services, and ag-data platforms integrate with Climate FieldView to share planting, application, and harvest data.
+      - name: Clinical Research Data Discovery
+        description: Researchers find and link Bayer-sponsored studies into clinical evidence and real-world data platforms.
+      - name: Pharma Supply Chain Integration
+        description: Distributors integrate order, shipment, and chargeback flows with Bayer's commercial supply chain via EDI.
+      - name: Medical Affairs Engagement
+        description: HCPs and medical-information vendors retrieve dosing, contraindication, and interaction information for clinical decision support.
+      - name: Crop Protection Stewardship
+        description: Authorities, retailers, and growers consume Bayer-published stewardship guidance for safe and sustainable product use.
+  - type: Compliance
+    data:
+      - name: HIPAA
+        description: U.S. operations involving protected health information are subject to HIPAA Privacy and Security Rules.
+      - name: GDPR
+        description: European patient, customer, and trial data handling is governed by the EU General Data Protection Regulation.
+      - name: FDA 21 CFR Part 11
+        description: Electronic records and signatures supporting Bayer's regulated processes follow FDA 21 CFR Part 11 requirements.
+      - name: GxP (GMP / GCP / GLP / GVP)
+        description: Manufacturing, clinical, lab, and pharmacovigilance practices follow applicable Good Practice standards.
+      - name: ICH E2B
+        description: Adverse-event reporting follows the ICH E2B(R3) standard for individual case safety reports.
+      - name: EU Plant Protection Regulation
+        description: Crop protection products are regulated under Regulation (EC) No 1107/2009 and member state authorizations.
+plansReconciled: false
+rateLimitsReconciled: false
+finopsReconciled: false
+position: Consuming
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
