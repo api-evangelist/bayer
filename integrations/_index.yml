@@ -15,3 +15,28 @@
   relationship: distribution-channel
   status: not-a-workflow
   arazzo: null
+- slug: bayer-alliance-for-regenerative-medicine-members
+  label: Alliance for Regenerative Medicine (members)
+  partner_name: Alliance for Regenerative Medicine (members)
+  category: CGT trade body member
+  type: register
+  channel: standard-directory
+  evidence: https://members.alliancerm.org/Online/Directory/Member-Directory-Profile.aspx?ID=23893
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Alliance for Regenerative Medicine member directory (members.alliancerm.org)
+    standard: null
+    spec_file: null
+    role: arm-member
+    registered_name: Bayer AG
+    register_id: '23893'
+    organization_focus: Therapeutic Developer
+    listed_website: http://www.bayer.com
+    matched_domain: bayer.com
+    matched_by: domain
+    signal_note: 'self-filed paid membership: listing alone = standard-participant; hand-reviewed'
+    detected_by: sweep-cell-gene-therapy.py
+    detected: '2026-10-20'
+  status: not-a-workflow
+  arazzo: null
